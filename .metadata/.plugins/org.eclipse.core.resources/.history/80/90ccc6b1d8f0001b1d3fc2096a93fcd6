@@ -5,13 +5,19 @@ public class Arraytask3 {
 	public static void main(String args[])
 	{
 		int ar[]= {101,234,567,323,202,2002};
-		System.out.println("Thye palindrome no in the array are: ");
+		//int arr[]= {};
+		int a=0;
+		//System.out.println(checkpalindrome(606));
 		for(int i=0;i<ar.length;i++)
 		{
 			if(checkpalindrome(ar[i]))
 			{
-				System.out.println(ar[i]);	
+				//System.out.println(ar[i]+" ");
+				a= ar[i];	
 			}
+				
+		
+		System.out.println(a);
 		}	
 	}
 
