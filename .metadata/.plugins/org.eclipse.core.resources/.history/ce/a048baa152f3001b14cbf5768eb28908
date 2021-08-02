@@ -20,9 +20,9 @@ public class ArrayTask2 {
 			}
 		}
 		arr2[j++] = arr1[arr1.length-1];
-		System.out.println("Array without duplicates(with  zero's) : " +Arrays.toString(arr2));
+		System.out.println("Array without duplicates(with extra zero's) : " +Arrays.toString(arr2));
 		
-		System.out.print("Array without duplicates(without zero's) : ");
+		System.out.print("Array without duplicates(without extra zero's) : ");
 		for (int i = 0; i < j; i++) {
 			System.out.print(arr2[i]+ " ");
 		}
