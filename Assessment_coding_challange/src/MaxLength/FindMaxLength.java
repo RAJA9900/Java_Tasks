@@ -3,7 +3,7 @@ package MaxLength;
 public class FindMaxLength {
 
 	public static void main(String[] args) {
-		String s="Hi hello how are doing in your Education";
+		String s="Hi hello how are doing in your Education iuoyopipo";
 		maxLength(s);
 		// TODO Auto-generated method stub
 	}
@@ -19,14 +19,15 @@ public class FindMaxLength {
     			max=str[i].length();
     		}
     	}
-    	System.out.println(max);
+    	//System.out.println(max);
     	for (int i=0;i<str.length;i++)
     	{
     		if(str[i].length()==max)
     		{
     			out=out+" "+str[i];
-    			System.out.println(out);
+    			
     		}
     	}
+    	System.out.println("Maximum Length_Word: "+out);
     }
 }
